@@ -8,10 +8,10 @@ The Russound RIO integration provides control of Russound zones, but does not ex
 
 Russound KeyPress adds these services:
 
-- `russound_keypress.previous`
-- `russound_keypress.next`
-- `russound_keypress.channel_up`
-- `russound_keypress.channel_down`
+* `russound_keypress.previous`
+* `russound_keypress.next`
+* `russound_keypress.channel_up`
+* `russound_keypress.channel_down`
 
 These send the corresponding Russound keypad events directly to the selected zone.
 
@@ -24,11 +24,17 @@ This integration requires the Home Assistant Russound RIO integration to already
 Copy the `custom_components/russound_keypress` directory into the `custom_components` directory of your Home Assistant configuration.
 
 The resulting directory should be:
+
+```text
 /config/custom_components/russound_keypress/
+```
 
 It should contain:
+
+```text
 __init__.py
 manifest.json
+```
 
 Restart Home Assistant after installation.
 
@@ -82,6 +88,3 @@ data:
 The zone name must match the zone name reported by the Russound RIO integration.
 
 This is an independent community-developed custom integration and is not affiliated with Russound.
-
-```
-```
