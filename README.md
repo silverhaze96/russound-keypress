@@ -1,4 +1,3 @@
-````markdown
 # Russound KeyPress
 
 A Home Assistant custom integration that adds direct keypress services to the Russound RIO integration.
@@ -25,17 +24,11 @@ This integration requires the Home Assistant Russound RIO integration to already
 Copy the `custom_components/russound_keypress` directory into the `custom_components` directory of your Home Assistant configuration.
 
 The resulting directory should be:
-
-```text
 /config/custom_components/russound_keypress/
-````
 
-and contain:
-
-```text
+It should contain:
 __init__.py
 manifest.json
-```
 
 Restart Home Assistant after installation.
 
